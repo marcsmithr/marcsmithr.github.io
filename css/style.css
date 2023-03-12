@@ -141,6 +141,26 @@ a:hover {
   font-size: 1.1rem;
 }
 
+/*--/ Title b /--*/
+
+.title-b {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.7rem;
+}
+
+.social-div{
+  margin-bottom: 1rem;
+}
+
+.social-icon{
+  font-size: 1.7rem;
+}
+
+.social-name{
+  font-size: 1.4rem;
+}
+
 /*--/ Title A /--*/
 
 .title-box {
@@ -182,6 +202,19 @@ a:hover {
   background-color: #0078ff;
   width: 100px;
   bottom: -12px;
+}
+
+/*------/ Skills /------*/
+.lang-img{
+  object-fit: contain;
+  height: 20px;
+}
+
+.lang-container{
+  height: 20px;
+}
+.lang-container > img{
+  height: 20px;
 }
 
 /*------/ Box /------*/
@@ -719,13 +752,20 @@ a:hover {
 }
 
 .service-box .service-ico {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-bottom: 1rem;
   color: #1e1e1e;
+  height: 5rem;
 }
 
 .service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
+}
+.service-box .service-ico >img {
+  height: 5rem;
 }
 
 .service-box .s-title {
